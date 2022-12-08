@@ -24,5 +24,6 @@ def recorre_laberinto(laberinto):
             movimientos.append('Izquierda')
         else:
             movimientos.append('No hay salida')
+    return movimientos
 
 print('Solución: ', recorre_laberinto(laberinto))
