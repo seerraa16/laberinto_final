@@ -15,6 +15,15 @@ def laberinto(dimension, muros):
                 fila.append(' ')
         laberinto.append(fila)
     return laberinto
+def movimientos(arriba, abajo, derecha, izquierda):
+    if arriba == ' ':
+        return 'Arriba'
+    elif abajo == ' ':
+        return 'Abajo'
+    elif derecha == ' ':
+        return 'Derecha'
+    elif izquierda == ' ':
+        return 'Izquierda'
 solucion_laberinto = ['Abajo', 'Abajo', 'Abajo', 'Abajo', 'Derecha', 'Derecha', 'Arriba', 'Arriba', 'Derecha', 'Derecha']
 
 
